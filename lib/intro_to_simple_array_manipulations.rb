@@ -21,9 +21,9 @@ def using_shift(arr)
   arr.shift
 end
 
-def pop_with_args(arr)
+def shift_with_args(arr)
   str = []
-  str.unshift(arr.pop)
-  str.unshift(arr.pop)
+  str << arr.pop
+  str << arr.pop
   return str
 end
