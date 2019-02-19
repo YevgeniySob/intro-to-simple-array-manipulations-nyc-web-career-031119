@@ -12,8 +12,8 @@ end
 
 def pop_with_args(arr)
   str = []
-  str << arr.pop
-  str << arr.pop
+  str.unshift(arr.pop)
+  str.unshift(arr.pop)
   return str
 end
 
