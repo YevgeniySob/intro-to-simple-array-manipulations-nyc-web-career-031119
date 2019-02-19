@@ -27,3 +27,7 @@ def shift_with_args(arr)
   str << arr.shift
   return str
 end
+
+def using_concat(arr1, arr2)
+  
+end
