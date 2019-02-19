@@ -10,7 +10,7 @@ def using_pop(arr, str)
   arr.pop(str)
 end
 
-def pop_with_args(arr, str)
+def pop_with_args(arr)
   str = ""
   str << arr.pop
   str << arr.pop
