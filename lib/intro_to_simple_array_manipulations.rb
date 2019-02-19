@@ -11,7 +11,7 @@ def using_pop(arr)
 end
 
 def pop_with_args(arr)
-  str = ""
+  str = []
   str << arr.pop
   str << arr.pop
   return str
