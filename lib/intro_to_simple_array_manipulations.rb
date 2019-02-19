@@ -23,7 +23,7 @@ end
 
 def shift_with_args(arr)
   str = []
-  str << arr.pop
-  str << arr.pop
+  str << arr.shift
+  str << arr.shift
   return str
 end
