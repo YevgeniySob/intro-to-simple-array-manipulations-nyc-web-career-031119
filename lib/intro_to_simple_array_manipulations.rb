@@ -16,6 +16,12 @@ def pop_with_args(arr)
   str.unshift(arr.pop)
   return str
 end
+def pop_with_args(arr)
+  str = []
+  str.unshift(arr.pop)
+  str.unshift(arr.pop)
+  return str
+end
 
 def using_shift(arr)
   arr.shift
